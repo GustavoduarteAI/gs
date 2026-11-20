@@ -1,0 +1,53 @@
+FIAP · Global Solution 2026.2 · Generative AI and Advanced Nets
+Projeto: Fala, Lavoura! A roça que conversa com quem cuida dela
+Tema: CitizenTech · Agricultura familiar
+
+Integrantes
+  Claudio Alves de Carvalho Junior ...... RM 568565
+  Gustavo Duarte ........................ RM 567066
+  Leonardo Pereira dos Santos ........... RM 567836
+
+Conteúdo da entrega
+  Fala_Lavoura_Documentacao.pdf   Documentação técnica completa (problema, abordagem,
+                                  arquitetura, testes, avaliação, limitações e integração)
+  fala-lavoura-codigo.zip         Código-fonte da aplicação, base de conhecimento,
+                                  testes automatizados e resultados da avaliação
+  video/                          Vídeo de demonstração da aplicação
+
+Vídeo: https://youtu.be/Q1RkOQ9VM5Q
+
+Como rodar a aplicação
+  1. Descompacte o fala-lavoura-codigo.zip e entre na pasta fala-lavoura.
+  2. Instale o Python 3.11 ou mais novo e rode: pip install -r requirements.txt
+  3. Copie o arquivo .env.example para .env e coloque uma chave gratuita do
+     Google AI Studio (https://aistudio.google.com/apikey) em GOOGLE_API_KEY.
+  4. Rode: python app.py  e abra http://127.0.0.1:7860
+  Ao iniciar, o app avisa no terminal se a IA generativa está ligada ou o que falta.
+
+Testes: python -m pytest -q   (58 testes, não usam a API)
+
+Atenção à cota gratuita
+  O plano gratuito do Google AI Studio dá cerca de 20 requisições por dia para cada modelo,
+  e cada pergunta gasta umas 3 (resposta + Fiscal da Roça), ou seja, umas 5 perguntas por
+  dia no modelo principal. Quando a cota acaba, o app troca sozinho para o modelo reserva e,
+  se ele também acabar, segue no modo sem IA (busca BM25, cálculos e guardrails), avisando
+  na tela. Os nomes dos modelos ficam no .env (MODELO_CHAT, MODELO_FISCAL, MODELO_RESERVA):
+  se algum não estiver disponível na sua conta, troque por um que apareça no AI Studio.
+  O protocolo de emergência e o bloqueio de doses funcionam mesmo sem chave.
+
+Errata do vídeo
+  No vídeo dissemos "juiz de outra família, às cegas". Foi às cegas, mas em 6 das 26
+  avaliações o juiz reserva foi o Gemini 3.5 Flash-Lite, da mesma família do gerador, e o
+  juiz deu nota 5 em tudo ao Fala, Lavoura!. Os números do vídeo estão certos, mas valem
+  como indício. Ressalvas completas na seção 7.3 da documentação.
+
+Alterações após a gravação do vídeo (19/11/2026)
+  - Filtro de doses na saída reforçado (dose por extenso, por hectare, tampa e xícara, mais
+    princípios ativos e nomes comerciais comuns).
+  - CPF escrito com espaços também é mascarado.
+  - Emergência: ingestão ("meu filho bebeu veneno") e produto no olho disparam o protocolo
+    fixo na hora, mesmo sem sintoma.
+  - CPF, telefone e e-mail mascarados antes de a pergunta ir ao Gemini.
+  - Documentação: ressalvas da avaliação, riscos da base de conhecimento e ligação com as
+    GS de PLN (Fábrica de Corpus) e RPA (Mutirão).
+  - A documentação apresentada no vídeo está em versao_apresentada/.

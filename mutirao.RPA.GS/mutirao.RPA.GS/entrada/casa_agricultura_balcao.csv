@@ -1,0 +1,8 @@
+id_solicitacao;data_hora;canal;nome;municipio;comunidade;cultura;latitude;longitude;descricao
+BAL-0001;2026-11-14 09:00;balcao;Gabi Simulada;Campinas;Sítio Três Irmãos;feijão;-22.89976;-47.05554;Feijão amarelando por igual, as folhas de baixo primeiro, acho que falta adubo
+BAL-0002;2031-01-01 10:00;balcao;Gabi Simulada;Ibiúna;Sítio Três Irmãos;;-23.62964;-47.19581;Quero vender alface e mandioca pra merenda da escola, quando abre a chamada pública?
+BAL-0003;2026-11-14 09:00;balcao;Carla Exemplo;Botucatu;Bairro do Cerrado;banana;-22.87488;-48.42407;Broca no pé de banana, o tronco tá cheio de furo e a bananeira tombando
+BAL-0004;2026-11-14 09:00;balcao;Carla Exemplo;Mirante do Paranapanema;Chácara Santa Luzia;;-22.32315;-51.89642;Nascente secou e a família tá sem água pra beber e pros animais
+BAL-0005;2026-11-14 09:00;balcao;Gabi Simulada;São Miguel Arcanjo;Bairro dos Mendes;milho;-23.89947;-48.00557;A enxurrada abriu uma valeta no meio da roça e tá levando a terra embora
+BAL-0006;2026-11-14 09:00;balcao;Ana Teste;Socorro;Sítio Três Irmãos;milho;-22.57253;-46.51723;Garantia-Safra: perdi o milho na estiagem e o prazo pra avisar vence semana que vem
+BAL-0007;2026-11-14 09:00;balcao;Lucas Mock;Botucatu;Sítio São José;;-22.88004;-48.42131;oi

@@ -1,0 +1,283 @@
+{
+  "amostra": {
+    "total": 62,
+    "no_escopo": 54,
+    "fora_escopo": 8,
+    "por_categoria": {
+      "pragas": 12,
+      "doencas": 12,
+      "agua": 10,
+      "solo": 10,
+      "credito": 10,
+      "fora_escopo": 8
+    }
+  },
+  "classificador_ml": {
+    "acuracia": 0.926,
+    "f1_macro": 0.93,
+    "no_escopo_classificadas_como_outros": 0,
+    "por_classe": {
+      "pragas": {
+        "precisao": 1.0,
+        "recall": 0.92,
+        "f1": 0.96,
+        "n": 12
+      },
+      "doencas": {
+        "precisao": 0.75,
+        "recall": 1.0,
+        "f1": 0.86,
+        "n": 12
+      },
+      "agua": {
+        "precisao": 1.0,
+        "recall": 0.9,
+        "f1": 0.95,
+        "n": 10
+      },
+      "solo": {
+        "precisao": 1.0,
+        "recall": 0.8,
+        "f1": 0.89,
+        "n": 10
+      },
+      "credito": {
+        "precisao": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "n": 10
+      }
+    }
+  },
+  "sem_dicionario_da_roca": {
+    "acuracia": 0.889,
+    "f1_macro": 0.9,
+    "frases_que_mudaram": [
+      {
+        "texto": "Minha DAP venceu, como faço o CAF novo?",
+        "esperado": "credito",
+        "com_dicionario": "credito",
+        "sem_dicionario": "outros"
+      },
+      {
+        "texto": "Quero um empréstimo pra comprar um trator pequeno, qual linha serve?",
+        "esperado": "credito",
+        "com_dicionario": "credito",
+        "sem_dicionario": "pragas"
+      }
+    ]
+  },
+  "linha_de_base_palavras_chave": {
+    "acuracia": 0.389,
+    "f1_macro": 0.522,
+    "sem_resposta": 28
+  },
+  "robo_com_limiar": {
+    "limiar": 0.4,
+    "automatizadas_pct": 83.9,
+    "acerto_nas_automatizadas_pct": 94.2,
+    "erros_silenciosos": 3,
+    "fora_escopo_para_revisao": "8/8",
+    "erros_seguros_na_revisao": 1,
+    "acertos_mandados_a_revisao": 1,
+    "automatizadas_no_escopo": 52
+  },
+  "varredura_limiar": [
+    {
+      "limiar": 0.3,
+      "automatizadas_pct": 90.3,
+      "acerto_nas_automatizadas_pct": 89.3,
+      "erros_silenciosos": 6,
+      "fora_escopo_para_revisao": "6/8",
+      "erros_seguros_na_revisao": 0,
+      "acertos_mandados_a_revisao": 0,
+      "automatizadas_no_escopo": 54
+    },
+    {
+      "limiar": 0.35,
+      "automatizadas_pct": 87.1,
+      "acerto_nas_automatizadas_pct": 92.6,
+      "erros_silenciosos": 4,
+      "fora_escopo_para_revisao": "7/8",
+      "erros_seguros_na_revisao": 1,
+      "acertos_mandados_a_revisao": 0,
+      "automatizadas_no_escopo": 53
+    },
+    {
+      "limiar": 0.4,
+      "automatizadas_pct": 83.9,
+      "acerto_nas_automatizadas_pct": 94.2,
+      "erros_silenciosos": 3,
+      "fora_escopo_para_revisao": "8/8",
+      "erros_seguros_na_revisao": 1,
+      "acertos_mandados_a_revisao": 1,
+      "automatizadas_no_escopo": 52
+    },
+    {
+      "limiar": 0.45,
+      "automatizadas_pct": 75.8,
+      "acerto_nas_automatizadas_pct": 93.6,
+      "erros_silenciosos": 3,
+      "fora_escopo_para_revisao": "8/8",
+      "erros_seguros_na_revisao": 1,
+      "acertos_mandados_a_revisao": 6,
+      "automatizadas_no_escopo": 47
+    },
+    {
+      "limiar": 0.5,
+      "automatizadas_pct": 71.0,
+      "acerto_nas_automatizadas_pct": 93.2,
+      "erros_silenciosos": 3,
+      "fora_escopo_para_revisao": "8/8",
+      "erros_seguros_na_revisao": 1,
+      "acertos_mandados_a_revisao": 9,
+      "automatizadas_no_escopo": 44
+    },
+    {
+      "limiar": 0.55,
+      "automatizadas_pct": 66.1,
+      "acerto_nas_automatizadas_pct": 92.7,
+      "erros_silenciosos": 3,
+      "fora_escopo_para_revisao": "8/8",
+      "erros_seguros_na_revisao": 1,
+      "acertos_mandados_a_revisao": 12,
+      "automatizadas_no_escopo": 41
+    },
+    {
+      "limiar": 0.6,
+      "automatizadas_pct": 61.3,
+      "acerto_nas_automatizadas_pct": 94.7,
+      "erros_silenciosos": 2,
+      "fora_escopo_para_revisao": "8/8",
+      "erros_seguros_na_revisao": 2,
+      "acertos_mandados_a_revisao": 14,
+      "automatizadas_no_escopo": 38
+    },
+    {
+      "limiar": 0.65,
+      "automatizadas_pct": 50.0,
+      "acerto_nas_automatizadas_pct": 96.8,
+      "erros_silenciosos": 1,
+      "fora_escopo_para_revisao": "8/8",
+      "erros_seguros_na_revisao": 3,
+      "acertos_mandados_a_revisao": 20,
+      "automatizadas_no_escopo": 31
+    },
+    {
+      "limiar": 0.7,
+      "automatizadas_pct": 43.5,
+      "acerto_nas_automatizadas_pct": 96.3,
+      "erros_silenciosos": 1,
+      "fora_escopo_para_revisao": "8/8",
+      "erros_seguros_na_revisao": 3,
+      "acertos_mandados_a_revisao": 24,
+      "automatizadas_no_escopo": 27
+    }
+  ],
+  "regra_de_urgencia": {
+    "recall": 0.75,
+    "precisao": 0.75,
+    "urgentes_reais": 4,
+    "urgentes_perdidos": [
+      "Gafanhoto chegou em nuvem e tá devorando o feijão do assentamento inteiro"
+    ],
+    "alarmes_falsos": [
+      "Mancha angular no feijão, já vi isso ano passado e perdi tudo"
+    ]
+  },
+  "palavras_que_mais_pesam": {
+    "agua": [
+      "agua",
+      "chove",
+      "ta",
+      "pra montar",
+      "montar",
+      "pra"
+    ],
+    "credito": [
+      "safra",
+      "pronaf",
+      "do",
+      "rural",
+      "perdi",
+      "car"
+    ],
+    "doencas": [
+      "pegou",
+      "com",
+      "tratar",
+      "como tratar",
+      "acho que",
+      "acho"
+    ],
+    "outros": [
+      "meu",
+      "minha",
+      "nao",
+      "ser",
+      "faco minha",
+      "energia"
+    ],
+    "pragas": [
+      "ajuda com",
+      "cheio",
+      "cheio de",
+      "contra",
+      "ta cheio",
+      "tem"
+    ],
+    "solo": [
+      "que faco",
+      "coloco no",
+      "coloco",
+      "adubo",
+      "ta com",
+      "como fazer"
+    ]
+  },
+  "intervalos_95_wilson": {
+    "acuracia_ml_no_escopo": [
+      82.4,
+      97.1
+    ],
+    "acerto_nas_automatizadas": [
+      84.4,
+      98.0
+    ]
+  },
+  "limiar_validacao_aninhada": {
+    "regra": "maior acerto no automatizado com automacao >= 65%",
+    "limiar_escolhido_em_cada_dobra": [
+      0.4,
+      0.35,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "limiar_escolhido_com_todos_os_dados": 0.4,
+    "automatizadas_pct": 85.5,
+    "acerto_nas_automatizadas_pct": 92.5,
+    "intervalo_95": [
+      82.1,
+      97.0
+    ],
+    "erros_silenciosos": 4
+  },
+  "lote_de_entrada_com_gabarito": {
+    "registros_unicos": 36,
+    "rejeicoes_corretas": "3/3",
+    "fora_do_escopo_para_revisao": "6/6",
+    "automatizadas": 27,
+    "automatizadas_com_categoria_certa": "27/27",
+    "intervalo_95_acerto_automatizadas": [
+      87.5,
+      100.0
+    ],
+    "no_escopo_mandadas_a_revisao": 0,
+    "erros_silenciosos": 0,
+    "urgencia_recall": "7/7",
+    "urgencia_alarmes_falsos": [],
+    "urgentes_perdidos": [],
+    "fichas_do_fala_lavoura_com_decisao_certa": "6/6"
+  }
+}

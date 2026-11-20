@@ -1,0 +1,13 @@
+id_solicitacao,data_hora,canal,nome,municipio,comunidade,cultura,latitude,longitude,descricao
+COOP-0001,2026-11-14 07:30,whatsapp_cooperativa,Iara Amostra,Socorro,Bairro dos Mendes,milho,-22.56164,-46.52216,"A lagarta tomou conta do milho, já abri o cartucho e tá cheio de serragem molhada"
+COOP-0002,2026-11-14 08:30,whatsapp_cooperativa,Heitor Fake,Mogi das Cruzes,Sítio Três Irmãos,hortaliças,-23.50436,-46.19465,"O poço tá secando e não tenho como molhar a horta, faz 20 dias sem chuva"
+COOP-0003,2026-11-14 09:30,whatsapp_cooperativa,Carla Exemplo,Botucatu,Bairro do Cerrado,tomate,-22.91563,-48.42811,Meu tomate tá com umas manchas pretas nas folhas e os frutos apodrecendo no pé
+COOP-0004,2026-11-14 10:30,whatsapp_cooperativa,Lucas Mock,Botucatu,Bairro do Cerrado,feijão,-22.85674,-48.47556,"Quero fazer a análise da terra antes de plantar o feijão, como coleto a amostra? Meu zap é (15) 99876-5432"
+COOP-0005,2026-11-14 11:30,whatsapp_cooperativa,Heitor Fake,Registro,Sítio Três Irmãos,couve,-24.53529,-47.87235,"Tem pulgão e formiga cortadeira acabando com a couve, as crianças brincam na horta e não queria usar veneno forte"
+COOP-0006,2026-11-14 12:30,whatsapp_cooperativa,Fabio Demo,Socorro,Bairro Rural do Pinhal,,-22.58327,-46.53621,Como tiro o CAF? O banco disse que sem ele não sai o Pronaf
+COOP-0007,2026-11-14 13:30,whatsapp_cooperativa,Fabio Demo,Piracicaba,Sítio Boa Vista,feijão,-22.74213,-47.64738,Folha do feijão cheia de pozinho alaranjado que sai no dedo
+COOP-0008,2026-11-14 14:30,whatsapp_cooperativa,Fabio Demo,Piracicaba,Sítio Água Limpa,mandioca,-22.68602,-47.66494,"Terra da roça tá muito azeda, o técnico falou em calcário mas não sei quanto"
+COOP-0009,2026-11-14 15:30,whatsapp_cooperativa,Ana Teste,Mirante do Paranapanema,Assentamento Nova Esperança,pimentão,-22.31893,-51.89923,A bomba do gotejo queimou e o pimentão tá murchando no sol
+COOP-0010,2026-11-14 16:30,whatsapp_cooperativa,Elisa Modelo,Campinas,Sítio Água Limpa,mandioca,-22.92835,-47.03527,"Mandarová comendo todas as folhas da mandioca, lavoura inteira pelada"
+COOP-0001,2026-11-14 07:30,whatsapp_cooperativa,Iara Amostra,Socorro,Bairro dos Mendes,milho,-22.56164,-46.52216,"A lagarta tomou conta do milho, já abri o cartucho e tá cheio de serragem molhada"
+COOP-0099,2026-11-14 09:00,whatsapp_cooperativa,Ana Teste,Cidade Inexistente,Bairro Rural do Pinhal,milho,abc,,"Lagarta no milho de novo, preciso de visita"

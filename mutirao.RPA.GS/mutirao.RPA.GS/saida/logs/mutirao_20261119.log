@@ -1,0 +1,82 @@
+2026-11-19 13:02:38,063 | INFO    | main        | Sistema de ATER simulado no ar em http://127.0.0.1:8765
+2026-11-19 13:02:38,394 | INFO    | leitura     | casa_agricultura_balcao.csv: encoding=cp1252, separador=';'
+2026-11-19 13:02:38,421 | INFO    | pipeline    | T1 casa_agricultura_balcao.csv: 7 registros
+2026-11-19 13:02:38,430 | INFO    | leitura     | cooperativa_whatsapp.csv: encoding=utf_8, separador=','
+2026-11-19 13:02:38,434 | INFO    | pipeline    | T1 cooperativa_whatsapp.csv: 12 registros
+2026-11-19 13:02:38,491 | ERROR   | leitura     | QUARENTENA: exportacao_interrompida.json (JSONDecodeError: Unterminated string starting at: line 1 column 46 (char 45))
+2026-11-19 13:02:38,502 | WARNING | leitura     | fala_lavoura_fila_tecnico.jsonl linha 7 ilegivel (Unterminated string starting at): pulada
+2026-11-19 13:02:38,504 | INFO    | pipeline    | T1 fala_lavoura_fila_tecnico.jsonl: 6 registros
+2026-11-19 13:02:38,505 | INFO    | pipeline    | T1 formulario_site.json: 5 registros
+2026-11-19 13:02:38,571 | INFO    | pipeline    | T1 sindicato_rural_lote.xlsx: 7 registros
+2026-11-19 13:02:38,571 | INFO    | pipeline    | T2 ignoradas: 1 duplicadas no lote, 0 ja processadas antes
+2026-11-19 13:02:38,585 | WARNING | pipeline    | T3 rejeitada BAL-0002: data no futuro
+2026-11-19 13:02:38,600 | WARNING | pipeline    | T3 rejeitada BAL-0007: descrição muito curta para entender o problema
+2026-11-19 13:02:38,602 | INFO    | validacao   | COOP-0004: dados pessoais mascarados no texto (telefone)
+2026-11-19 13:02:38,602 | WARNING | pipeline    | T3 rejeitada COOP-0099: localização não identificada (município e coordenadas inválidos)
+2026-11-19 13:02:38,602 | INFO    | validacao   | WEB-0004: dados pessoais mascarados no texto (cpf)
+2026-11-19 13:02:38,769 | INFO    | pipeline    | T4 FL-87a630e1 -> REVISAO HUMANA (sugestao doencas, 30%)
+2026-11-19 13:02:38,776 | INFO    | pipeline    | T4 FL-70537f0c -> REVISAO HUMANA (sugestao pragas, 80%)
+2026-11-19 13:02:38,782 | INFO    | pipeline    | T4 FL-06b88330 -> REVISAO HUMANA (sugestao solo, 36%)
+2026-11-19 13:02:38,787 | INFO    | pipeline    | T4 WEB-0002 -> REVISAO HUMANA (sugestao pragas, 46%)
+2026-11-19 13:02:38,794 | INFO    | pipeline    | T4 SIN-0006 -> REVISAO HUMANA (sugestao outros, 90%)
+2026-11-19 13:02:38,798 | INFO    | pipeline    | T4 SIN-0007 -> REVISAO HUMANA (sugestao outros, 94%)
+2026-11-19 13:02:39,938 | INFO    | pipeline    | T5 BAL-0001: solo / BAIXA (assunto solo (peso 1))
+2026-11-19 13:02:40,901 | INFO    | pipeline    | T5 BAL-0003: pragas / MÉDIA (assunto pragas (peso 2))
+2026-11-19 13:02:41,911 | INFO    | pipeline    | T5 BAL-0004: agua / ALTA (assunto agua (peso 2); RISCO: família sem água para beber; chuva prevista: 14.2 mm em 3 dias)
+2026-11-19 13:02:42,932 | INFO    | pipeline    | T5 BAL-0005: solo / BAIXA (assunto solo (peso 1))
+2026-11-19 13:02:42,935 | INFO    | pipeline    | T5 BAL-0006: credito / MÉDIA (assunto credito (peso 1); prazo de programa ou documento correndo (+1))
+2026-11-19 13:02:43,868 | INFO    | pipeline    | T5 COOP-0001: pragas / ALTA (assunto pragas (peso 2); RISCO: risco de perder a lavoura inteira)
+2026-11-19 13:02:44,759 | INFO    | pipeline    | T5 COOP-0002: agua / MÉDIA (assunto agua (peso 2); sem chuva útil prevista: 2.8 mm em 3 dias (+1))
+2026-11-19 13:02:44,759 | INFO    | pipeline    | T5 COOP-0003: doencas / MÉDIA (assunto doencas (peso 2); pouca chuva prevista: 11.8 mm em 3 dias)
+2026-11-19 13:02:44,762 | INFO    | pipeline    | T5 COOP-0004: solo / BAIXA (assunto solo (peso 1))
+2026-11-19 13:02:45,834 | INFO    | pipeline    | T5 COOP-0005: pragas / ALTA (assunto pragas (peso 2); RISCO: pessoas vulneráveis expostas)
+2026-11-19 13:02:45,834 | INFO    | pipeline    | T5 COOP-0006: credito / BAIXA (assunto credito (peso 1))
+2026-11-19 13:02:46,751 | INFO    | pipeline    | T5 COOP-0007: doencas / MÉDIA (assunto doencas (peso 2); pouca chuva prevista: 5.7 mm em 3 dias)
+2026-11-19 13:02:46,751 | INFO    | pipeline    | T5 COOP-0008: solo / BAIXA (assunto solo (peso 1))
+2026-11-19 13:02:46,751 | INFO    | pipeline    | T5 COOP-0009: agua / MÉDIA (assunto agua (peso 2); chuva prevista: 14.2 mm em 3 dias)
+2026-11-19 13:02:46,755 | INFO    | pipeline    | T5 COOP-0010: pragas / ALTA (assunto pragas (peso 2); RISCO: risco de perder a lavoura inteira)
+2026-11-19 13:02:46,755 | INFO    | pipeline    | T5 FL-5443655f: pragas / MÉDIA (assunto pragas (peso 2))
+2026-11-19 13:02:47,790 | INFO    | pipeline    | T5 FL-b91c02d4: doencas / ALTA (assunto doencas (peso 2); chuva favorece doença de fungo: 21.0 mm em 3 dias (+2))
+2026-11-19 13:02:47,790 | INFO    | pipeline    | T5 FL-c3e7a915: credito / BAIXA (assunto credito (peso 1))
+2026-11-19 13:02:48,886 | INFO    | pipeline    | T5 WEB-0001: pragas / MÉDIA (assunto pragas (peso 2))
+2026-11-19 13:02:48,886 | INFO    | pipeline    | T5 WEB-0003: doencas / ALTA (assunto doencas (peso 2); RISCO: risco de perder a lavoura inteira; pouca chuva prevista: 5.7 mm em 3 dias)
+2026-11-19 13:02:48,886 | INFO    | pipeline    | T5 WEB-0004: agua / MÉDIA (assunto agua (peso 2); chuva prevista: 10.8 mm em 3 dias)
+2026-11-19 13:02:48,886 | INFO    | pipeline    | T5 WEB-0005: credito / BAIXA (assunto credito (peso 1))
+2026-11-19 13:02:48,886 | INFO    | pipeline    | T5 SIN-0001: pragas / MÉDIA (assunto pragas (peso 2))
+2026-11-19 13:02:48,886 | INFO    | pipeline    | T5 SIN-0002: doencas / MÉDIA (assunto doencas (peso 2); pouca chuva prevista: 18.1 mm em 3 dias)
+2026-11-19 13:02:48,893 | INFO    | pipeline    | T5 SIN-0003: agua / MÉDIA (assunto agua (peso 2); chuva prevista: 14.1 mm em 3 dias)
+2026-11-19 13:02:48,893 | INFO    | pipeline    | T5 SIN-0004: solo / BAIXA (assunto solo (peso 1))
+2026-11-19 13:02:48,893 | INFO    | pipeline    | T5 SIN-0005: credito / BAIXA (assunto credito (peso 1))
+2026-11-19 13:02:51,207 | INFO    | rpa_portal  | Navegador: chrome
+2026-11-19 13:02:52,073 | INFO    | rpa_portal  | Login no portal feito com sucesso
+2026-11-19 13:02:52,793 | INFO    | pipeline    | T6 BAL-0001 registrada: protocolo ATER-2026-000001
+2026-11-19 13:02:53,598 | INFO    | pipeline    | T6 BAL-0003 registrada: protocolo ATER-2026-000002
+2026-11-19 13:02:54,657 | INFO    | pipeline    | T6 BAL-0004 registrada: protocolo ATER-2026-000003
+2026-11-19 13:02:55,952 | INFO    | pipeline    | T6 BAL-0005 registrada: protocolo ATER-2026-000004
+2026-11-19 13:02:57,423 | INFO    | pipeline    | T6 BAL-0006 registrada: protocolo ATER-2026-000005
+2026-11-19 13:02:58,635 | INFO    | pipeline    | T6 COOP-0001 registrada: protocolo ATER-2026-000006
+2026-11-19 13:03:00,379 | INFO    | pipeline    | T6 COOP-0002 registrada: protocolo ATER-2026-000007
+2026-11-19 13:03:01,602 | INFO    | pipeline    | T6 COOP-0003 registrada: protocolo ATER-2026-000008
+2026-11-19 13:03:02,989 | INFO    | pipeline    | T6 COOP-0004 registrada: protocolo ATER-2026-000009
+2026-11-19 13:03:04,216 | INFO    | pipeline    | T6 COOP-0005 registrada: protocolo ATER-2026-000010
+2026-11-19 13:03:05,424 | INFO    | pipeline    | T6 COOP-0006 registrada: protocolo ATER-2026-000011
+2026-11-19 13:03:06,663 | INFO    | pipeline    | T6 COOP-0007 registrada: protocolo ATER-2026-000012
+2026-11-19 13:03:07,934 | INFO    | pipeline    | T6 COOP-0008 registrada: protocolo ATER-2026-000013
+2026-11-19 13:03:09,150 | INFO    | pipeline    | T6 COOP-0009 registrada: protocolo ATER-2026-000014
+2026-11-19 13:03:10,435 | INFO    | pipeline    | T6 COOP-0010 registrada: protocolo ATER-2026-000015
+2026-11-19 13:03:12,124 | INFO    | pipeline    | T6 FL-5443655f registrada: protocolo ATER-2026-000016
+2026-11-19 13:03:13,385 | INFO    | pipeline    | T6 FL-b91c02d4 registrada: protocolo ATER-2026-000017
+2026-11-19 13:03:14,616 | INFO    | pipeline    | T6 FL-c3e7a915 registrada: protocolo ATER-2026-000018
+2026-11-19 13:03:15,851 | INFO    | pipeline    | T6 WEB-0001 registrada: protocolo ATER-2026-000019
+2026-11-19 13:03:17,132 | INFO    | pipeline    | T6 WEB-0003 registrada: protocolo ATER-2026-000020
+2026-11-19 13:03:18,433 | INFO    | pipeline    | T6 WEB-0004 registrada: protocolo ATER-2026-000021
+2026-11-19 13:03:19,683 | INFO    | pipeline    | T6 WEB-0005 registrada: protocolo ATER-2026-000022
+2026-11-19 13:03:21,017 | INFO    | pipeline    | T6 SIN-0001 registrada: protocolo ATER-2026-000023
+2026-11-19 13:03:22,346 | INFO    | pipeline    | T6 SIN-0002 registrada: protocolo ATER-2026-000024
+2026-11-19 13:03:23,600 | INFO    | pipeline    | T6 SIN-0003 registrada: protocolo ATER-2026-000025
+2026-11-19 13:03:24,817 | INFO    | pipeline    | T6 SIN-0004 registrada: protocolo ATER-2026-000026
+2026-11-19 13:03:26,090 | INFO    | pipeline    | T6 SIN-0005 registrada: protocolo ATER-2026-000027
+2026-11-19 13:03:28,699 | INFO    | pipeline    | T7 6 fichas do Fala, Lavoura! receberam retorno em retorno_fala_lavoura.jsonl
+2026-11-19 13:03:30,094 | INFO    | relatorio   | Planilha gerada: relatorio_20261119_130329.xlsx
+2026-11-19 13:03:30,115 | INFO    | relatorio   | Relatorio de execucao: execucao_20261119_130329.json
+2026-11-19 13:03:30,115 | INFO    | pipeline    | FIM: 37 lidos | 27 registradas | 6 revisao humana | 3 rejeitadas | 0 pendentes | 1 quarentena | 0 ja processadas | 51.3s

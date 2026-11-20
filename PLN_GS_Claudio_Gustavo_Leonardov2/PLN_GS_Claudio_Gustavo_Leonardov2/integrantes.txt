@@ -1,0 +1,15 @@
+Global Solution - Fabrica de Corpus CitizenTech
+Processamento de Linguagem Natural, Chatbots e Virtual Agents
+Prof. Dr. Sergio Eduardo Palmiere
+FIAP - Turma 2TIAPR
+
+Tema escolhido: Agricultura familiar - acesso ao CAF, ao Pronaf, ao Garantia-Safra
+e a assistencia tecnica
+
+INTEGRANTES DO GRUPO
+
+Nome completo                      RM        Turma
+---------------------------------- --------- --------
+Claudio Alves de Carvalho Junior   568565    2TIAPR
+Gustavo Duarte                     567066    2TIAPR
+Leonardo Pereira dos Santos        567836    2TIAPR

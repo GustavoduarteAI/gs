@@ -1,0 +1,7 @@
+texto,categoria_esperada,prevista,confianca,segunda_opcao,foi_para_revisao
+Ácaro deixando a folha do morango com cara de ferrugem e uma teia fininha,pragas,doencas,0.753,pragas (13%),False
+Terreno encharca e o pé de mandioca apodrece de tanto molhado,agua,doencas,0.622,pragas (15%),False
+"O milho nasceu fraquinho e amarelado, as folhas de baixo secando na ponta",solo,doencas,0.585,pragas (16%),False
+A luz cai toda vez que venta no sítio,fora_escopo,agua,0.38,outros (33%),True
+Quero denunciar o vizinho que mudou a cerca de lugar,fora_escopo,solo,0.346,outros (21%),True
+"O capim não cresce mais no pasto, acho que o chão tá pobre",solo,doencas,0.327,solo (25%),True

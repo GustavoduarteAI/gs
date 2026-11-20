@@ -1,0 +1,62 @@
+{
+  "Campinas": {
+    "chuva_3d_mm": 10.8,
+    "tmax_c": 29.8,
+    "tmin_c": 20.0,
+    "quando": 1795104159.8922827
+  },
+  "Botucatu": {
+    "chuva_3d_mm": 11.8,
+    "tmax_c": 30.7,
+    "tmin_c": 19.6,
+    "quando": 1795104160.8916013
+  },
+  "Mirante do Paranapanema": {
+    "chuva_3d_mm": 14.2,
+    "tmax_c": 33.1,
+    "tmin_c": 22.0,
+    "quando": 1795104161.9072475
+  },
+  "São Miguel Arcanjo": {
+    "chuva_3d_mm": 18.1,
+    "tmax_c": 30.1,
+    "tmin_c": 19.3,
+    "quando": 1795104162.862505
+  },
+  "Socorro": {
+    "chuva_3d_mm": 14.1,
+    "tmax_c": 29.4,
+    "tmin_c": 18.8,
+    "quando": 1795104163.8639183
+  },
+  "Mogi das Cruzes": {
+    "chuva_3d_mm": 2.8,
+    "tmax_c": 30.8,
+    "tmin_c": 19.5,
+    "quando": 1795104164.7524817
+  },
+  "Registro": {
+    "chuva_3d_mm": 7.4,
+    "tmax_c": 33.6,
+    "tmin_c": 22.4,
+    "quando": 1795104165.8279004
+  },
+  "Piracicaba": {
+    "chuva_3d_mm": 5.7,
+    "tmax_c": 31.3,
+    "tmin_c": 20.5,
+    "quando": 1795104166.7437007
+  },
+  "Itapeva": {
+    "chuva_3d_mm": 21.0,
+    "tmax_c": 29.2,
+    "tmin_c": 19.2,
+    "quando": 1795104167.7436438
+  },
+  "Ibiúna": {
+    "chuva_3d_mm": 9.2,
+    "tmax_c": 27.6,
+    "tmin_c": 18.3,
+    "quando": 1795104168.869212
+  }
+}

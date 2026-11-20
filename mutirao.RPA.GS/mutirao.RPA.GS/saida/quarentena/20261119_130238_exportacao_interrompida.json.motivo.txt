@@ -1,0 +1,2 @@
+Arquivo: exportacao_interrompida.json
+Motivo: JSONDecodeError: Unterminated string starting at: line 1 column 46 (char 45)

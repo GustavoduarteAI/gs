@@ -1,0 +1,33 @@
+{
+  "corpus_texto.jsonl": {
+    "exemplos": 141,
+    "tokens_media": 256.2,
+    "tokens_min": 59,
+    "tokens_max": 371,
+    "tokens_total": 36128,
+    "duplicatas_exatas_removidas": 2,
+    "quase_duplicatas_removidas": 0,
+    "fontes": 6,
+    "trechos_abaixo_de_256_tokens": 48
+  },
+  "corpus_qa.jsonl": {
+    "exemplos": 116,
+    "tokens_media": 95.4,
+    "tokens_min": 30,
+    "tokens_max": 285,
+    "tokens_total": 11069,
+    "duplicatas_exatas_removidas": 11,
+    "quase_duplicatas_removidas": 1,
+    "fontes": 6
+  },
+  "corpus_chat.jsonl": {
+    "exemplos": 67,
+    "tokens_media": 311.4,
+    "tokens_min": 227,
+    "tokens_max": 607,
+    "tokens_total": 20866,
+    "duplicatas_exatas_removidas": 0,
+    "quase_duplicatas_removidas": 0,
+    "fontes": 6
+  }
+}

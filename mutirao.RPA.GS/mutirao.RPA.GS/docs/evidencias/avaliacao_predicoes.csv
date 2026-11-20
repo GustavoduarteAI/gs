@@ -1,0 +1,63 @@
+texto,categoria_esperada,urgente_esperado,prevista,confianca,segunda_opcao,base_palavras,risco_detectado
+"Tem uns bichinhos verdes grudados embaixo da folha da couve, ela tá toda encarquilhada",pragas,0,pragas,0.535,agua (17%),sem_resposta,0
+"Apareceu um monte de lagartinha no meio do repolho, tá tudo furado",pragas,0,pragas,0.91,doencas (3%),sem_resposta,0
+As formigas carregaram as mudas de laranja numa noite só,pragas,0,pragas,0.423,doencas (23%),pragas,0
+"Percevejo chupando os grãos da soja, eles ficam murchinhos",pragas,0,pragas,0.479,doencas (16%),sem_resposta,0
+Os pendões do milho tão cheios de lagarta e ela já tá descendo pra espiga,pragas,0,pragas,0.448,doencas (31%),pragas,0
+"Cigarrinha no milho de novo, já pedi ajuda e ninguém veio",pragas,0,pragas,0.776,outros (8%),sem_resposta,0
+Gafanhoto chegou em nuvem e tá devorando o feijão do assentamento inteiro,pragas,1,pragas,0.636,doencas (12%),sem_resposta,0
+Uns besouros pretos furando o tronco da goiabeira,pragas,0,pragas,0.513,credito (13%),sem_resposta,0
+"A plantação de abóbora tá tomada de vaquinha, as crianças da escolinha ajudam na horta e não quero passar veneno",pragas,1,pragas,0.783,outros (6%),sem_resposta,1
+"Lesma comendo a horta à noite, de manhã tá tudo babado",pragas,0,pragas,0.857,solo (4%),sem_resposta,0
+Ácaro deixando a folha do morango com cara de ferrugem e uma teia fininha,pragas,0,doencas,0.753,pragas (13%),doencas,0
+"Pulgão preto em cima dos brotos do quiabo, cheio de formiga em volta",pragas,0,pragas,0.928,doencas (2%),pragas,0
+As folhas do tomate amanheceram com manchas escuras e um bolor branco por baixo,doencas,0,doencas,0.976,pragas (1%),doencas,0
+Pé de feijão com umas pintinhas avermelhadas que soltam um pó,doencas,0,doencas,0.776,pragas (11%),sem_resposta,0
+A abobrinha tá com as folhas cobertas de um pó branco parecendo farinha,doencas,0,doencas,0.794,solo (8%),sem_resposta,0
+Os frutos do maracujá tão com manchas fundas e escuras e caindo antes da hora,doencas,0,doencas,0.97,pragas (1%),doencas,0
+A bananeira tá com as folhas riscadas de marrom e secando de fora pra dentro,doencas,0,doencas,0.645,solo (17%),agua,0
+"Pimentão murcha no sol quente e não volta nem molhando, o caule por dentro tá marrom",doencas,0,doencas,0.638,agua (13%),sem_resposta,0
+O alface tá apodrecendo rente ao chão com uma meleca,doencas,0,doencas,0.619,pragas (12%),sem_resposta,0
+"Mancha angular no feijão, já vi isso ano passado e perdi tudo",doencas,0,doencas,0.509,pragas (22%),doencas,1
+Folha da mandioca toda enrugada e amarelada em mosaico,doencas,0,doencas,0.44,pragas (14%),sem_resposta,0
+A batata pegou uma doença que preteja a folha toda e tá se espalhando rápido pela lavoura,doencas,1,doencas,0.824,agua (6%),doencas,1
+Os limões tão com umas crostas marrons tipo verruga na casca,doencas,0,doencas,0.803,pragas (10%),sem_resposta,0
+Cacho de uva todo com mofo cinza depois desses dias úmidos,doencas,0,doencas,0.868,pragas (4%),doencas,0
+Não cai uma gota faz três semanas e a horta tá torrando,agua,0,agua,0.684,outros (9%),sem_resposta,0
+"O gotejamento entupiu de novo, as linhas do fim não pingam nada",agua,0,agua,0.363,outros (25%),sem_resposta,0
+Quero construir uma barraginha pra segurar a chuva e guardar água,agua,0,agua,0.867,credito (4%),agua,0
+Quantos minutos eu deixo o aspersor ligado no feijão por dia?,agua,0,agua,0.723,pragas (8%),sem_resposta,0
+A represa baixou muito e não sei se dá pra irrigar até a colheita,agua,0,agua,0.559,outros (20%),agua,0
+O poço artesiano secou e a gente tá buscando água de balde pra beber,agua,1,agua,0.883,solo (3%),agua,1
+Minha cisterna rachou e tá vazando toda a água que juntei,agua,0,agua,0.882,outros (5%),agua,0
+Terreno encharca e o pé de mandioca apodrece de tanto molhado,agua,0,doencas,0.622,pragas (15%),sem_resposta,0
+"Calorão e o tomate murchando ao meio-dia, rego de manhã e não adianta",agua,0,agua,0.908,doencas (6%),sem_resposta,0
+Como faço a outorga pra puxar água do córrego pra irrigar?,agua,0,agua,0.709,credito (13%),agua,0
+"Minha terra é muito arenosa e o adubo some, o que eu faço?",solo,0,solo,0.876,outros (7%),solo,0
+O resultado da análise do solo chegou e não entendo nada daqueles números,solo,0,solo,0.445,outros (21%),solo,0
+Quantos sacos de calcário eu jogo por hectare?,solo,0,solo,0.554,agua (12%),solo,0
+"O milho nasceu fraquinho e amarelado, as folhas de baixo secando na ponta",solo,0,doencas,0.585,pragas (16%),agua,0
+"Quero plantar mucuna pra melhorar a terra, vale a pena?",solo,0,solo,0.756,agua (9%),solo,0
+A chuva levou a terra do morro e abriu um buraco fundo na roça,solo,0,solo,0.402,agua (19%),agua,0
+Posso usar cinza do fogão e esterco de galinha na horta?,solo,0,solo,0.785,pragas (8%),sem_resposta,0
+"Terra dura feito pedra, a enxada nem entra",solo,0,solo,0.466,pragas (16%),solo,0
+"Fiz composteira e tá cheirando mal, o que deu errado?",solo,0,solo,0.469,pragas (18%),sem_resposta,0
+"O capim não cresce mais no pasto, acho que o chão tá pobre",solo,0,doencas,0.327,solo (25%),sem_resposta,0
+"Minha DAP venceu, como faço o CAF novo?",credito,0,credito,0.626,outros (19%),sem_resposta,0
+"Quero um empréstimo pra comprar um trator pequeno, qual linha serve?",credito,0,credito,0.758,outros (7%),sem_resposta,0
+Como me inscrevo pra vender verdura pra merenda?,credito,0,credito,0.706,agua (7%),sem_resposta,0
+"Perdi a lavoura na seca, como aciono o seguro?",credito,0,credito,0.667,agua (11%),agua,0
+O banco tá cobrando a parcela do custeio e a colheita não deu,credito,0,credito,0.669,outros (9%),credito,0
+A chamada pública do PAA fecha amanhã e ainda não entreguei os papéis,credito,0,credito,0.615,doencas (11%),sem_resposta,0
+Mulher pode pegar financiamento no próprio nome pra montar a agroindústria?,credito,0,credito,0.93,agua (3%),credito,0
+"Tenho que fazer o CAR do sítio, quem faz?",credito,0,credito,0.87,solo (4%),sem_resposta,0
+Quanto é o juro do Pronaf pra comprar vaca de leite?,credito,0,credito,0.688,solo (10%),credito,0
+O Garantia-Safra desse ano já pagou?,credito,0,credito,0.817,outros (4%),sem_resposta,0
+A ponte de madeira da estrada rural caiu e ninguém consegue sair,fora_escopo,0,outros,0.43,credito (26%),sem_resposta,0
+A luz cai toda vez que venta no sítio,fora_escopo,0,agua,0.38,outros (33%),sem_resposta,0
+Quero denunciar o vizinho que mudou a cerca de lugar,fora_escopo,0,solo,0.346,outros (21%),sem_resposta,0
+Tem vaga no curso de tratorista do sindicato?,fora_escopo,0,outros,0.46,pragas (29%),sem_resposta,0
+O ônibus escolar não passa mais na comunidade,fora_escopo,0,outros,0.686,pragas (8%),sem_resposta,0
+"Meu cachorro foi picado de cobra, onde levo?",fora_escopo,0,outros,0.814,credito (5%),sem_resposta,0
+Quando vai ser a festa do padroeiro da comunidade?,fora_escopo,0,outros,0.923,credito (2%),sem_resposta,0
+A internet do celular não pega em lugar nenhum da roça,fora_escopo,0,outros,0.354,credito (18%),sem_resposta,0

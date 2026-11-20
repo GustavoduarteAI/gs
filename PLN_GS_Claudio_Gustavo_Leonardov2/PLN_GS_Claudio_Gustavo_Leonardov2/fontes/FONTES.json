@@ -1,0 +1,38 @@
+[
+  {
+    "arquivo": "cartilha_pronaf_credito_rural.pdf",
+    "formato": "PDF",
+    "orgao": "Ministerio do Desenvolvimento Agrario e Agricultura Familiar (MDA)",
+    "titulo": "Como acessar Credito Rural pelo Pronaf: passo a passo",
+    "url": "https://www.conexsus.org/validacao/wp-content/uploads/2024/11/cartilha-pronaf-final.pdf"
+  },
+  {
+    "arquivo": "manual_garantia_safra_MAPA.pdf",
+    "formato": "PDF",
+    "orgao": "Ministerio da Agricultura - Departamento de Gestao de Riscos",
+    "titulo": "Orientacoes do Programa Garantia-Safra",
+    "url": "https://www.gov.br/mda/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/programa-garantia-safra/arquivos/manual6_atualizado_julho2019_orient-doc.pdf"
+  },
+  {
+    "arquivo": "modelo_contrato_ater_MDA.docx",
+    "formato": "DOCX",
+    "orgao": "MDA - Departamento de Credito e Assistencia Tecnica",
+    "titulo": "Modelo de contrato de prestacao de servicos de ATER",
+    "url": "https://www.gov.br/mda/pt-br/acesso-a-informacao/copy_of_acoes-e-programas/credito/manuais-e-formularios/modelo-contrato-de-ater-decred-13-04.21"
+  },
+  {
+    "arquivo": "lei_10420_2002_garantia_safra.html",
+    "formato": "HTML",
+    "orgao": "Presidencia da Republica (Planalto)",
+    "titulo": "Lei 10.420/2002 - Fundo e Programa Garantia-Safra",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10420.htm",
+    "espelho": "https://normas.leg.br/?urn=urn:lex:br:federal:lei:2002-04-10;10420"
+  },
+  {
+    "arquivo": "avisos_oficiais_inmet.txt",
+    "formato": "TXT",
+    "orgao": "Instituto Nacional de Meteorologia (INMET)",
+    "titulo": "Avisos meteorologicos oficiais (seca, geada, chuva excessiva)",
+    "url": "https://apiprevmet3.inmet.gov.br/avisos/ativos"
+  }
+]
